@@ -84,7 +84,7 @@ if st.button("🚀 Buat Modul Ajar Sekarang"):
                     messages=[
                         {"role": "user", "content": prompt}
                     ],
-                    model="llama3-8b-8192", # Model gratis, sangat cepat, dan pintar
+                    model="llama-3.3-70b-versatile",, # Model gratis, sangat cepat, dan pintar
                 )
                 
                 hasil_modul = chat_completion.choices[0].message.content
