@@ -33,7 +33,7 @@ st.markdown("""
         border-color: #1D4ED8;
     }
     </style>
-""", unsafe_index=True)
+""", unsafe_allow_html=True)
 
 # 2. Cek API Key
 if "GROQ_API_KEY" in st.secrets:
